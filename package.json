@@ -2,7 +2,7 @@
   "name": "test_portfolio",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/assets/scripts/index.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
