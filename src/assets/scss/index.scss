@@ -4,8 +4,10 @@
 @use './mixin';
 @use './global';
 
+@use './components/typed';
 @use './components/menu';
 @use './components/hero';
+@use './components/container';
 @use './components/btn';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');

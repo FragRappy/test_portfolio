@@ -1,6 +1,15 @@
 @use './var';
 @use './mixin';
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var.$color-primary;
+    border-radius: 50;
+}
+
 body {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;

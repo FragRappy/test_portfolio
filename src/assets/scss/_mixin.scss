@@ -1,3 +1,6 @@
+@use './var';
+@import './components/typed';
+
 @mixin tablet-desktop {
     @media screen and (min-width: 770px) {
        @content;
@@ -6,4 +9,40 @@
 
 @mixin hover {
     @content;
+}
+
+@mixin typing {
+    display: block;
+    font-family: var.$font-secondary;
+    &__reserve {
+        display: block;
+        color: var.$color-tertiary;
+        appearance: none;
+        background-color: transparent;
+        border: none;
+        pointer-events: none;
+
+        @include typed(
+            "développeur Web.",
+            "pro du code.",
+            "pro de l'accessibilité.",
+            2,
+            (
+                caret-width: 2px,
+                caret-space: 2px
+            )
+        );
+    }
+}
+
+@mixin sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
