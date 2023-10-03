@@ -1,0 +1,29 @@
+@use '../mixin';
+@use '../var';
+
+
+.hero {
+    &__img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+
+        & img{   
+            max-width: 20rem;
+        }
+
+        &::before{
+            position: absolute;
+            display: flex;
+            z-index: -1;
+            content: '';
+            min-width: 15rem;
+            min-height: 12rem;
+            bottom: 0;
+            border-radius: 6px;
+            box-shadow: var.$shadow-white-3;
+            background: var.$gradient-box-w;
+        }
+    }
+}

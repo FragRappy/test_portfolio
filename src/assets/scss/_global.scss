@@ -1,0 +1,11 @@
+@use './var';
+@use './mixin';
+
+body {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: var.$font-primary;
+    background-color: #ecf0f3;
+}

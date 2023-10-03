@@ -1,0 +1,9 @@
+@mixin tablet-desktop {
+    @media screen and (min-width: 770px) {
+       @content;
+    }
+}
+
+@mixin hover {
+    @content;
+}
