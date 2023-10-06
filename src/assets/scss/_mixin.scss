@@ -14,7 +14,7 @@
 @mixin typing {
     display: block;
     font-family: var.$font-secondary;
-    &__reserve {
+    &__action {
         display: block;
         color: var.$color-tertiary;
         appearance: none;
