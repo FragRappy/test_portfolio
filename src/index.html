@@ -20,6 +20,11 @@
                 <a href="#portfolio">Portfolio</a>
                 <a href="#">Compétences</a>
                 <a href="#">Contact</a>
+                <h1>Mon CV :
+                    <a href="./assets/img/CV Charles-Edouard Breton.pdf" role="button" target="_blank" aria-label="télécharger le cv">
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </h1>
             </nav>
             <div class="menu__toogle" title="Afficher/Masquer le Menu">&#9776;</div>
         </div>
@@ -27,16 +32,18 @@
     <main>
         <div class="container">
             <div class="hero" id="accueil">
+                <!-- Ma présentation et une courte explication sur ce portfolio -->
                 <div class="hero__img">
                     <img src="./assets/img/photo charles-edouard breton.svg" alt="">
                 </div>
                 <div class="hero__content">
                     <span class="hero__content__subtitle">Bienvenue dans mon monde</span>
-                    <h1 class="hero__content__title">Moi, c'est <strong>Charles-Édouard</strong></h1>
+                    <P class="hero__content__title">Moi, c'est <strong>Charles-Édouard</strong></P>
                     <span class="hero__content__typing">Un futur<em class="hero__content__typing__action"></em></span>
                     <p class="hero__content__desc">
                         Portfolio développé en <strong>HTML/CSS/Javascript</strong>. Vous retrouverez mes projets ainsi que mes compétences dans divers langages et frameworks.
                     </p>
+                    <!-- Les liens vers mes réseaux sociaux ainsi que mes expertises sur différent langages -->
                     <div class="shortcut">
                         <div class="shortcut__social">
                             <span class="shortcut__social__title">Mes réseaux</span>
@@ -87,11 +94,45 @@
                     </div> 
                 </div>   
             </div>
-            <!-- Les futurs cards portfolio -->
+            <!-- Mes différents projets en portfolio -->
             <div class="portfolio" id="portfolio">
-                <img src="#" alt="">
-                <p>title</p>
-                <p>desc</p>
+                <div class="portfolio__menu">
+                    <ul>
+                        <li>
+                            <button class="fa-solid fa-grip-vertical" aria-label="voir tous les projets"></button>
+                        </li>
+                        <li>
+                            <button class="fa-brands fa-css3-alt" aria-label="voir les projets avec du html et css"></button>
+                        </li>
+                        <li>
+                            <button class="fa-brands fa-js" aria-label="voir les projets avec du javascript"></button>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__container__card">
+                        <div class="portfolio__container__card__img">
+                            <img src="./assets/img/thumb/timups.png" alt="">
+                        </div>
+                        <h2>TimUps</h2>
+                        <p>Site web en html/css</p>
+                    </div>
+                    <div class="portfolio__container__card">
+                        <div class="portfolio__container__card__img">
+                            <img src="./assets/img/thumb/pokebon.png" alt="">
+                        </div>
+                        <h2>Pokebon</h2>
+                        <p>Site web en html/css</p>
+                    </div>
+                    <div class="portfolio__container__card">
+                        <div class="portfolio__container__card__img">
+                            <img src="./assets/img/thumb/bonus.png" alt="">
+                        </div>
+                        <h2>Blog</h2>
+                        <p>Site web en html/css</p>
+                    </div>
+                </div>
             </div>
             
             <!-- Le futur bloc qui integre competence / emplois / formations -->
@@ -111,9 +152,6 @@
     <footer>
         
     </footer>
-
-    
-
     <script src="./assets/scripts/index.js" type="module"></script>
 </body>
 </html>

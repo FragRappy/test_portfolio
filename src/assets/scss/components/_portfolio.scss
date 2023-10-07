@@ -1,3 +1,89 @@
+@use '../mixin';
+@use '../var';
+
 .portfolio {
+    overflow: hidden;
     display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid var.$color-body-white;
+
+    &__menu {
+        display: inline-flex;
+        height: 100%;
+        font-size: 1.3rem;
+        
+        box-shadow: var.$shadow-white-3;
+        background: var.$gradient-box-w;
+      
+        border-radius: 6px;
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+              
+        }
+
+        & li:not(:last-child){
+            border-bottom: 1px solid var.$color-body-white;
+        }
+
+        & li button{
+            color: var.$color-body-white;
+            padding: 2rem;
+            font-size: 1.7rem;
+        }
+        
+        &__current {
+            color: var.$color-body-white;
+            box-shadow: var.$shadow-white-3;
+            background: var.$gradient-box-w;
+            border-radius: 6px;
+        }
+    }
+
+    &__container {
+        
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        max-height: 20rem;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        max-width: 30rem;
+
+        &__card {
+            padding: 1.5rem;
+            color: var.$color-body-white;
+            box-shadow: var.$shadow-white-3;
+            background: var.$gradient-box-w;
+            border-radius: 20px;
+            margin: 1rem;
+    
+            &__img {
+                border-radius: 10px;
+                overflow: hidden;
+    
+                & img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include mixin.hover {
+    @media (hover: hover) {
+        .portfolio__container__card__img img:hover {
+            transition: 0.4s;
+            transform: scale(1.1);
+        }
+    }
 }

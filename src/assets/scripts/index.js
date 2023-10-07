@@ -13,8 +13,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
-    //gestion du clic sur le menu navigation pour ios
-    menuToogle.addEventListener('click', function () {  
+    //gestion du clic pour le menu burger
+    function displayNavMobile () {
         if (menu.style.display == 'none'){
             menu.style.display = '';
             menu.classList.add('menu__nav__on');
@@ -22,7 +22,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
             menu.style.display = 'none';
             menu.classList.remove('menu__nav__on');
         }
-    });
+    }
+    menuToogle.addEventListener('click', displayNavMobile);
     //gestion du clic sur le bouton de changement de theme
 
     //gestion du clic sur le bouton retourner en haut
@@ -32,13 +33,24 @@ window.addEventListener('DOMContentLoaded', function (event) {
     //gestion de la largeur au chargement de la page
      window.onload = function () {
         const width = window.innerWidth;
-        menu.style.display = ( width > 899 )? '':'none';
-        menuToogle.style.display = ( width > 899 )? 'none':'';
+        if (width > 899) {
+            menu.style.display = '';
+            menuToogle.style.display = 'none';
+        } else {
+            menu.style.display = 'none';
+            menuToogle.style.display = '';
+        }
     };
     //gestion de la largeur au changement de taille de la fenêtre
     window.onresize = function () {
         const width = window.innerWidth;
-        menu.style.display = ( width > 899 )? '':'none';
-        menuToogle.style.display = ( width > 899 )? 'none':'';
+        if (width > 899) {
+            menu.style.display = '';
+            menu.classList.remove('menu__nav__on');
+            menuToogle.style.display = 'none';
+        } else {
+            menu.style.display = 'none';
+            menuToogle.style.display = '';
+        }
     };
 });

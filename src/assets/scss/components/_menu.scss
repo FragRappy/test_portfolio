@@ -24,6 +24,7 @@
     &__nav {
         display: flex;
         flex-direction: column;
+        align-items: end;
         gap: 1rem;
 
         &__on {
@@ -41,7 +42,7 @@
             right: 0;
         }
       
-        & a { 
+        & a, h1 { 
             font-family: var.$font-secondary;
             text-decoration: none;
             text-transform:uppercase;
@@ -50,7 +51,11 @@
             color: var.$color-body-white;
             opacity: 0.9;
             letter-spacing: 2px;
-        }
+
+            & i {
+                font-size: 1rem;
+            }
+        }   
     }
     
     &__toogle {
@@ -76,8 +81,16 @@
 
 @include mixin.hover {
     @media(hover :hover) {
-        .menu__nav:hover a{
-            color: var.$color-body;
+        .menu__nav:hover {
+
+            & a {
+                color: var.$color-body;
+            }
+            
+            & h1 {
+                color: var.$color-primary;
+            }
+            
         }
         .menu__nav a:hover {
             color: var.$color-body-white;
