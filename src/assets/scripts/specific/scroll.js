@@ -1,5 +1,5 @@
 export const scrollPosition = {
-    headerPosition: () => {
+    headerPosition: function () {
         const lastScrollCheck = Math.round(window.scrollY);
         const menuFix = document.querySelector('.menu');
         const totop = document.querySelector('.totop');
