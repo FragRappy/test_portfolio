@@ -16,8 +16,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const theme = document.querySelector('.menu__theme');
     //gestion du clic sur le menu burger
     menuToogle.addEventListener('click', () => {
-        menu.style.display = (menu.style.display == 'none')? '':'none';
         menu.classList.toggle('menu__nav__on');
+        menu.style.display = (menu.style.display == 'none')? '':'none';
     });
     //gestion du clic sur le bouton de changement de theme
 
