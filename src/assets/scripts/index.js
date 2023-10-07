@@ -16,14 +16,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
+    let toggler = 0;
     //gestion du clic sur le menu burger
     menuToogle.addEventListener('click', () => {  
-        menu.style.display = (menu.style.display == 'none')? '':'none';
+        toggler != toggler
         if (toggler == 1){
             menu.classList.add('menu__nav__on');
         } else {
             menu.classList.remove('menu__nav__on');
         }
+        menu.style.display = (menu.style.display == 'none')? '':'none';
     });
     //gestion du clic sur le bouton de changement de theme
 
