@@ -25,13 +25,13 @@ window.addEventListener('DOMContentLoaded', function (event) {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     });
     //gestion de la largeur au chargement de la page
-     window.onload = () => {
+     window.onload = function () {
         const width = window.innerWidth;
         menu.style.display = ( width > 899 )? '':'none';
         menuToogle.style.display = ( width > 899 )? 'none':'';
     };
     //gestion de la largeur au changement de taille de la fenêtre
-    window.onresize = () => {
+    window.onresize = function () {
         const width = window.innerWidth;
         menu.style.display = ( width > 899 )? '':'none';
         menuToogle.style.display = ( width > 899 )? 'none':'';
