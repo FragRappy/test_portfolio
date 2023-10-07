@@ -15,8 +15,13 @@ window.addEventListener('DOMContentLoaded', function (event) {
     const totop = document.querySelector('.totop');
     //gestion du clic sur le menu navigation pour ios
     menuToogle.addEventListener('click', function () {  
-        menu.classList.toggle('menu__nav__on');
-        menu.style.display = (menu.style.display == 'none')? '':'none';
+        if (menu.style.display == 'none'){
+            menu.style.display = '';
+            menu.classList.add('menu__nav__on');
+        } else {
+            menu.style.display = 'none';
+            menu.classList.remove('menu__nav__on');
+        }
     });
     //gestion du clic sur le bouton de changement de theme
 

@@ -27,7 +27,7 @@
 75C:\Users\FragRappy\Desktop\test_portfolio\node_modules\resolve-from\license133399311550433459 0
 61C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@babel133399311544060041 1
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\css-tree\cjs\syntax\config\parser-selector.cjs133399311554296491 0
-46C:\Users\FragRappy\Desktop\test_portfolio\dist133411471382779930 1
+46C:\Users\FragRappy\Desktop\test_portfolio\dist133411476173886288 1
 105C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133399311552999890 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\scss-reset\test\reset.html133399318188948590 0
 64C:\Users\FragRappy\Desktop\test_portfolio\node_modules\is-number133399311550558199 1
@@ -215,7 +215,7 @@
 84C:\Users\FragRappy\Desktop\test_portfolio\node_modules\csso\lib\replace\Dimension.js133399311553960574 0
 108C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\registerprotocolhandler.js133399311558007172 0
 128C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeHiddenElems.js133399311553404881 0
-69C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scripts\index.js133411466075254786 0
+69C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scripts\index.js133411476173694208 0
 73C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\src\lmdb-js.h133399311554336523 0
 64C:\Users\FragRappy\Desktop\test_portfolio\node_modules\term-size133399311551415503 1
 104C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\once-event-listener.js133399311557808554 0
@@ -6090,8 +6090,8 @@
 69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css.map133411471382769926 0
 65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.c459e2a1.css133411148920715716 0
 69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.c459e2a1.css.map133411148920750627 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js133411469837063363 0
-68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js.map133411469837073364 0
+64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js133411476173866294 0
+68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js.map133411476173876292 0
 64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.dc500345.js133408005323365562 0
 88C:\Users\FragRappy\Desktop\test_portfolio\dist\photo charles-edouard breton.dfe1ea47.svg133411148920134009 0
 73C:\Users\FragRappy\Desktop\test_portfolio\dist\test_portfolio.59712999.js133399484147846258 0
