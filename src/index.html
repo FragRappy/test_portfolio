@@ -12,10 +12,12 @@
 <body>
     <header>
         <div class="menu">
-            <a href="#" aria-label="page d'accueil"><img class="menu__img" src="./assets/img/icon.svg" alt=""></a>
+            <div>
+                <img class="menu__img" src="./assets/img/icon.svg" alt="">
+            </div>
             <nav class="menu__nav" aria-label="menu principal">
-                <a href="#">Accueil</a>
-                <a href="#">Portfolio</a>
+                <a href="#accueil">Accueil</a>
+                <a href="#portfolio">Portfolio</a>
                 <a href="#">Compétences</a>
                 <a href="#">Contact</a>
             </nav>
@@ -24,7 +26,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="hero">
+            <div class="hero" id="accueil">
                 <div class="hero__img">
                     <img src="./assets/img/photo charles-edouard breton.svg" alt="">
                 </div>
@@ -35,66 +37,75 @@
                     <p class="hero__content__desc">
                         Portfolio développé en <strong>HTML/CSS/Javascript</strong>. Vous retrouverez mes projets ainsi que mes compétences dans divers langages et frameworks.
                     </p>
-                </div>
+                    <div class="shortcut">
+                        <div class="shortcut__social">
+                            <span class="shortcut__social__title">Mes réseaux</span>
+                            <ul class="shortcut__social__nav">
+                                <li>
+                                    <a href="https://www.facebook.com/charlesedouard.breton/" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le Facebook de Charles-Édouard Breton</span>
+                                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/charles-edouard-breton-92779027b/" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le LinkedIn de Charles-Édouard Breton</span>
+                                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/FragRappy" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le github de Charles-Édouard Breton</span>
+                                        <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shortcut__social">
+                            <span class="shortcut__social__title">Mon expertise</span>
+                            <ul class="shortcut__social__nav">
+                                <li>
+                                    <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au html</span>
+                                        <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au css</span>
+                                        <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
+                                        <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au javascript</span>
+                                        <i class="fa-brands fa-js" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>   
             </div>
-            <div class="shortcut">
-                <div class="shortcut__social">
-                    <span class="shortcut__social__title">Mes réseaux</span>
-                    <ul class="shortcut__social__nav">
-                        <li>
-                            <a href="https://www.facebook.com/charlesedouard.breton/" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le Facebook de Charles-Édouard Breton</span>
-                                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/charles-edouard-breton-92779027b/" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le LinkedIn de Charles-Édouard Breton</span>
-                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/FragRappy" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le github de Charles-Édouard Breton</span>
-                                <i class="fa-brands fa-square-github" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="shortcut__social">
-                    <span class="shortcut__social__title">Mon expertise</span>
-                    <ul class="shortcut__social__nav">
-                        <li>
-                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au html</span>
-                                <i class="fa-brands fa-html5" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au css</span>
-                                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
-                                <span class="sr-only">Vous rendre sur le site MDN (Mozilla Developer Network) lié au javascript</span>
-                                <i class="fa-brands fa-js" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+            <div class="portfolio" id="portfolio"></div>
             
+
+            <ul id="test">
+            </ul>
+           
+            <div class="totop">
+                <button type="button" aria-label="remonter en début du portfolio">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
         </div>
-        </div>
-        <ul id="test">
-        </ul>
-       
     </main>
     <footer>
         
     </footer>
+
+    
 
     <script src="./assets/scripts/index.js" type="module"></script>
 </body>

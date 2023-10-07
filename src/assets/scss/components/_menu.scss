@@ -11,13 +11,14 @@
     font-weight: 600;
     padding: .6rem 1rem .6rem 2rem;
     
-    &__img{
+    &__img {
         width: 3rem;
         height: 3rem;
         padding: .3rem;
         box-shadow: var.$shadow-white-3;
         background: var.$gradient-box-w;
         border-radius: 50%;
+        fill: white;
     }
 
     &__nav {
