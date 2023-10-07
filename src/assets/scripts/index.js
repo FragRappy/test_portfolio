@@ -20,7 +20,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     menuToogle.addEventListener('click', () => {  
         menu.style.display = (menu.style.display == 'none')? '':'none';
         if (toggler == 1){
-            menu.classList.toggle('menu__nav__on');
+            menu.classList.add('menu__nav__on');
+        } else {
+            menu.classList.remove('menu__nav__on');
         }
     });
     //gestion du clic sur le bouton de changement de theme
