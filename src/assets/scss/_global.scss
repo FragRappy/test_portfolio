@@ -47,12 +47,15 @@ body {
     font-size: 1.6rem;
     width: 3rem;
     height: 3rem;
-    bottom: 5%;
-    right: 10%;
-    color: var.$color-body;
-    opacity: 0.7;
+    bottom: 1rem;
+    right: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 50;
+
+    & i {
+        color: var.$color-body-white;
+        opacity: 0.8;
+    }
 }
 
 @include mixin.hover {

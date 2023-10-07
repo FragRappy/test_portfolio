@@ -1,4 +1,4 @@
-6096
+6079
 97C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\core\test\fixtures\parcel\index.js133399311554094637 0
 76C:\Users\FragRappy\Desktop\test_portfolio\node_modules\js-yaml\lib\schema.js133399311552490968 0
 69C:\Users\FragRappy\Desktop\test_portfolio\node_modules\domelementtype133399311551305499 1
@@ -27,7 +27,7 @@
 75C:\Users\FragRappy\Desktop\test_portfolio\node_modules\resolve-from\license133399311550433459 0
 61C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@babel133399311544060041 1
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\css-tree\cjs\syntax\config\parser-selector.cjs133399311554296491 0
-46C:\Users\FragRappy\Desktop\test_portfolio\dist133411476173886288 1
+46C:\Users\FragRappy\Desktop\test_portfolio\dist133411499737377806 1
 105C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133399311552999890 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\scss-reset\test\reset.html133399318188948590 0
 64C:\Users\FragRappy\Desktop\test_portfolio\node_modules\is-number133399311550558199 1
@@ -68,7 +68,7 @@
 107C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\LICENSE133399311550127308 0
 112C:\Users\FragRappy\Desktop\test_portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\IdSelector.cjs133399311553390863 0
 104C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\transformer-image\src\ImageTransformer.js133399311550528209 0
-70C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scss\_global.scss133411094967948058 0
+70C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scss\_global.scss133411499843930783 0
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\web-app-manifest.js133399311558574686 0
 97C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_object_spread\package.json133399311555765524 0
 96C:\Users\FragRappy\Desktop\test_portfolio\node_modules\entities\lib\generated\decode-data-xml.js133399311550961803 0
@@ -1575,7 +1575,6 @@
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\scss-reset\.gulp\server.js133399318188948590 0
 95C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h133399311554490569 0
 71C:\Users\FragRappy\Desktop\test_portfolio\node_modules\argparse\LICENSE133399311549915631 0
-68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.dc500345.js.map133408005323385570 0
 95C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\esm\_non_iterable_spread.js133399311554859582 0
 88C:\Users\FragRappy\Desktop\test_portfolio\node_modules\scss-reset\.github\ISSUE_TEMPLATE133399318188948590 1
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\nth-check\lib\esm\parse.js133399311551021805 0
@@ -1866,7 +1865,6 @@
 105C:\Users\FragRappy\Desktop\test_portfolio\node_modules\css-select\node_modules\domutils\lib\esm\legacy.js133399311551355495 0
 100C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\reporter-tracer\src\TracerReporter.js133399311550548201 0
 82C:\Users\FragRappy\Desktop\test_portfolio\node_modules\node-addon-api\node_api.gyp133399311550197315 0
-69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.953df6d8.css.map133408011241112958 0
 73C:\Users\FragRappy\Desktop\test_portfolio\node_modules\msgpackr\struct.js133399311552107983 0
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_class_private_field_loose_base133399311555414587 1
 79C:\Users\FragRappy\Desktop\test_portfolio\node_modules\ordered-binary\README.md133399311551571963 0
@@ -2188,7 +2186,6 @@
 72C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\browserslist133399311559007744 0
 94C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\core\lib\ParcelConfig.schema.js133399311554490569 0
 80C:\Users\FragRappy\Desktop\test_portfolio\node_modules\dotenv-expand\lib\main.js133399311551011814 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.ad8a82d9.js133399491246417209 0
 109C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\node_modules\msgpackr\dist\unpack-no-eval.cjs.map133399311553190105 0
 134C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\index.js133399311553600075 0
 78C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\dist\index.cjs.map133399311554646826 0
@@ -2286,7 +2283,6 @@
 104C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\crypto.c133399311552571010 0
 103C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\LICENSE133399311551415503 0
 108C:\Users\FragRappy\Desktop\test_portfolio\node_modules\css-select\node_modules\domutils\lib\esm\package.json133399311551951328 0
-65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.1c4f5e3f.css133408005323365562 0
 116C:\Users\FragRappy\Desktop\test_portfolio\node_modules\csso\node_modules\css-tree\lib\definition-syntax\tokenizer.js133399311555665523 0
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133399311553500076 0
 78C:\Users\FragRappy\Desktop\test_portfolio\node_modules\escalade\dist\index.mjs133399311551021805 0
@@ -4207,7 +4203,7 @@
 107C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js133399311554490569 0
 102C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\createimagebitmap.js133399311554490569 0
 92C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\css-all.js133399311554490569 0
-88C:\Users\FragRappy\Desktop\test_portfolio\dist\photo charles-edouard breton.3d6507d7.svg133411400714202578 0
+88C:\Users\FragRappy\Desktop\test_portfolio\dist\photo charles-edouard breton.3d6507d7.svg133411498131533965 0
 98C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\css-animation.js133399311554646826 0
 99C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\input-datetime.js133399311556934605 0
 99C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\css-appearance.js133399311554646826 0
@@ -4433,7 +4429,6 @@
 139C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133399311552298249 0
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\mutationobserver.js133399311557618705 0
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\cjs\_class_private_method_get.cjs133399311552601000 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\icon.fb7b7a55.svg133411148919883292 0
 92C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\netinfo.js133399311557618705 0
 117C:\Users\FragRappy\Desktop\test_portfolio\node_modules\abortcontroller-polyfill\dist\abortcontroller-polyfill-only.js133399311550578198 0
 99C:\Users\FragRappy\Desktop\test_portfolio\node_modules\caniuse-lite\data\features\object-entries.js133399311557618705 0
@@ -4597,7 +4592,6 @@
 99C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_define_property\package.json133399311555655523 0
 78C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\types\package.json133399311550433459 0
 106C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs133399311556222896 0
-65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.953df6d8.css133408011241092914 0
 71C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\cjs133399311554134618 1
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\reporter-tracer\LICENSE133399311550107311 0
 71C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\esm133399311555045087 1
@@ -4631,7 +4625,6 @@
 106C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose133399311555605515 1
 135C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\SelectorList.js133399311554478473 0
 83C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_create_super133399311555615514 1
-68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.a4a6063b.js.map133411148920740996 0
 120C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\prefixIds.js133399311553035063 0
 99C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_define_enumerable_properties133399311555645514 1
 82C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_export_star133399311555675512 1
@@ -4695,7 +4688,7 @@
 92C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_defaults\package.json133399311555635518 0
 106C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\core\test\fixtures\main-global\package.json133399311555357810 0
 92C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_decorate\package.json133399311555625520 0
-57C:\Users\FragRappy\Desktop\test_portfolio\dist\index.html133411400714152579 0
+57C:\Users\FragRappy\Desktop\test_portfolio\dist\index.html133411498131513966 0
 119C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose\package.json133399311555605515 0
 103C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\src\_class_apply_descriptor_set.mjs133399311556222896 0
 103C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\LICENSE133399311550127308 0
@@ -5131,7 +5124,7 @@
 78C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\dist133399311551951328 1
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\package.json133399311552107983 0
 95C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\parcel_sourcemap_node133399311554134618 1
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\icon.22906ffb.svg133411400714172582 0
+64C:\Users\FragRappy\Desktop\test_portfolio\dist\icon.22906ffb.svg133411498131533965 0
 83C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\README.md133399311552318247 0
 105C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node133399311554134618 1
 104C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133399311554306531 1
@@ -5814,7 +5807,6 @@
 89C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\graph\src\shared-buffer.js133399311551941329 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\graph\lib\Graph.js133399311551415503 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\graph\lib\index.js133399311551743355 0
-77C:\Users\FragRappy\Desktop\test_portfolio\dist\test_portfolio.59712999.js.map133399484147876265 0
 89C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\graph\lib\shared-buffer.js133399311551871340 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\graph\lib\types.js133399311551951328 0
 71C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\detect-libc133399311559007744 0
@@ -6082,16 +6074,7 @@
 70C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\semver.cmd133399311559007744 0
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\update-browserslist-db.cmd133399311559017742 0
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\update-browserslist-db.ps1133399311559017742 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\icon.b96099bf.svg133408005322646136 0
-69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.1c4f5e3f.css.map133408005323385570 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.a4a6063b.js133411148920715716 0
-68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.ad8a82d9.js.map133399491246437197 0
-65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css133411471382759942 0
-69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css.map133411471382769926 0
-65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.c459e2a1.css133411148920715716 0
-69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.c459e2a1.css.map133411148920750627 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js133411476173866294 0
-68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js.map133411476173876292 0
-64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.dc500345.js133408005323365562 0
-88C:\Users\FragRappy\Desktop\test_portfolio\dist\photo charles-edouard breton.dfe1ea47.svg133411148920134009 0
-73C:\Users\FragRappy\Desktop\test_portfolio\dist\test_portfolio.59712999.js133399484147846258 0
+65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css133411499737371254 0
+69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css.map133411499737377806 0
+64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js133411498131533965 0
+68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js.map133411498131543962 0
