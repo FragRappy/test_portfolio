@@ -88,3 +88,17 @@
         }
     }
 }
+
+@include mixin.tablet-desktop {
+    .portfolio {
+        &__container {
+            width: 100%;
+            max-width: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            &__card {
+                width: calc((100% / 3) - 2rem);
+            }
+        }
+    }
+}
