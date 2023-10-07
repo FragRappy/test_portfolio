@@ -35,12 +35,12 @@
         }
 
         &__subtitle {
-            font-size: .8rem;
+            font-size: .5rem;
             letter-spacing: 3px;
         }
 
         &__title, &__typing {
-            font-size: 1.6rem;
+            font-size: 1rem;
             font-weight: 900;
         }
 
@@ -51,7 +51,7 @@
         }
 
         &__desc {
-            font-size: 1rem;
+            font-size: 0.6rem;
         }
     }
 }
@@ -120,6 +120,18 @@
         &__content {
             margin: 2rem 0 0 0;
             max-width: 60%;
+
+            &__subtitle {
+                font-size: 0.8rem;
+            }
+
+            &__title, &__typing {
+                font-size: 1.6rem;
+            }
+
+            &__desc {
+                font-size: 1rem;
+            }
         }
     }
     .shortcut {
