@@ -8,16 +8,20 @@ import { emplois } from "./data/experiences";
 //gestion des cards de portfolio
 import portfolios from "./data/portfolio";
 
+//variable d'evenement pour ajouter une classe au menu de navigation
+import { toggler } from "./specific/scroll";
+
 //Gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
 window.addEventListener('DOMContentLoaded', (event) => {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
-    const theme = document.querySelector('.menu__theme');
     //gestion du clic sur le menu burger
-    menuToogle.addEventListener('click', () => {
-        menu.classList.toggle('menu__nav__on');
+    menuToogle.addEventListener('click', () => {  
         menu.style.display = (menu.style.display == 'none')? '':'none';
+        if (toggler == 1){
+            menu.classList.toggle('menu__nav__on');
+        }
     });
     //gestion du clic sur le bouton de changement de theme
 
