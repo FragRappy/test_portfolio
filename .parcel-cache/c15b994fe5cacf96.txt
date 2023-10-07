@@ -29,7 +29,7 @@
 101C:\Users\FragRappy\Desktop\test_portfolio\node_modules\css-tree\cjs\syntax\config\parser-selector.cjs133399311554296491 0
 105C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133399311552999890 0
 81C:\Users\FragRappy\Desktop\test_portfolio\node_modules\scss-reset\test\reset.html133399318188948590 0
-46C:\Users\FragRappy\Desktop\test_portfolio\dist133411621786785737 1
+46C:\Users\FragRappy\Desktop\test_portfolio\dist133411627692245939 1
 64C:\Users\FragRappy\Desktop\test_portfolio\node_modules\is-number133399311550558199 1
 100C:\Users\FragRappy\Desktop\test_portfolio\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133399311550217310 0
 63C:\Users\FragRappy\Desktop\test_portfolio\node_modules\escalade133399311551222766 1
@@ -236,7 +236,7 @@
 97C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@parcel\transformer-babel\lib\constants.js133399311551415503 0
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\semver\ranges\to-comparators.js133399311553190105 0
 68C:\Users\FragRappy\Desktop\test_portfolio\node_modules\semver\ranges133399311553190105 1
-84C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scss\components\_portfolio.scss133411621783859533 0
+84C:\Users\FragRappy\Desktop\test_portfolio\src\assets\scss\components\_portfolio.scss133411627690261821 0
 96C:\Users\FragRappy\Desktop\test_portfolio\node_modules\@swc\helpers\_\_object_without_properties133399311555765524 1
 85C:\Users\FragRappy\Desktop\test_portfolio\node_modules\csso\lib\clean\TypeSelector.js133399311554134618 0
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\htmlnano\docs\package-lock.json133399311553190105 0
@@ -6080,8 +6080,8 @@
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\update-browserslist-db.cmd133399311559017742 0
 86C:\Users\FragRappy\Desktop\test_portfolio\node_modules\.bin\update-browserslist-db.ps1133399311559017742 0
 65C:\Users\FragRappy\Desktop\test_portfolio\dist\bonus.77856db8.png133411620941810039 0
-65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css133411621786775681 0
-69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css.map133411621786785737 0
+65C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css133411627692225961 0
+69C:\Users\FragRappy\Desktop\test_portfolio\dist\index.b60c5fad.css.map133411627692235943 0
 64C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js133411620941820058 0
 68C:\Users\FragRappy\Desktop\test_portfolio\dist\index.d01b75eb.js.map133411620941820058 0
 67C:\Users\FragRappy\Desktop\test_portfolio\dist\pokebon.2b68b989.png133411620941779276 0
