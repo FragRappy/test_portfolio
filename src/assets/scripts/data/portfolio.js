@@ -1,4 +1,6 @@
-export const portfolios = [
+//gestion des cards de portfolio
+
+const portfolios = [
     {
         language : 'css',
         title: 'TimUps',
@@ -29,7 +31,7 @@ export const portfolios = [
     },
     {
         language : 'js',
-        title: 'penalty game',
+        title: 'Penalty Game',
         desc: 'Exercice personnel en html/css/js',
         url: new URL('https://test-portfolio-olive.vercel.app'),
         thumbImg: new URL ('../../../assets/img/thumb/penalty.png', import.meta.url)
@@ -47,20 +49,25 @@ function addCardToDom (portfolio) {
     }
     const div = document.createElement('div');
     div.classList.add('portfolio__container__card__img');
+    const aImg = document.createElement('a');
+    aImg.setAttribute('href', portfolio.url);
+    aImg.setAttribute('target', '_blank');
+    aImg.setAttribute('rel', 'noopener');
     const img = document.createElement('img')
     img.setAttribute('src', portfolio.thumbImg);
-    const a = document.createElement('a');
-    a.setAttribute('href', portfolio.url);
-    a.setAttribute('target', '_blank');
-    a.setAttribute('rel', 'noopener');
+    const aTitle = document.createElement('a');
+    aTitle.setAttribute('href', portfolio.url);
+    aTitle.setAttribute('target', '_blank');
+    aTitle.setAttribute('rel', 'noopener');
     const h2 = document.createElement('h2');
     h2.textContent = portfolio.title;
     const p = document.createElement('p');
     p.textContent = portfolio.desc;
     card.append(article);
-    article.append(div, h2, a, p);
-    div.append(img);
-    a.append(h2);
+    article.append(div, h2, aTitle, p);
+    div.append(aImg);
+    aImg.append(img);
+    aTitle.append(h2);
 };
 
 // Cela insert un objet du tableau portfolios dans le dom avec addCardToDom
@@ -68,9 +75,7 @@ for (const portfolio of portfolios){
     addCardToDom(portfolio);   
 };
 
-
 //fonction de filtre pas fofolle
-
 const filter = {
     cards: document.querySelectorAll(`.portfolio__container__card`),
     allFolio: document.querySelector('#all-folio'),

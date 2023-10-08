@@ -1,0 +1,22 @@
+@use '../mixin';
+@use '../var';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    border-top: 1px solid var.$color-body-white;
+    margin-top: 2rem;
+
+    & img {
+        margin: 2rem 0 .5rem 0;
+    }
+
+    & h3 {
+        font-weight: 600;
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
+}

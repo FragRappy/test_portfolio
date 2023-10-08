@@ -1,0 +1,55 @@
+@use '../mixin';
+@use '../var';
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    color: var.$color-body-white;
+    box-shadow: var.$shadow-white-3;
+    background: var.$gradient-box-w;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1100px;
+
+    &__img {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        color: var.$color-body-white;
+        box-shadow: var.$shadow-white-3;
+        background: var.$gradient-box-w;
+        border-radius: 10px;
+
+        & input, & select, & textarea {
+            background-color: #fdfefe;
+            border: 1.5px solid #dadada;
+            border-radius: 6px;
+            box-shadow: none;
+            transition: 0.6s;
+        }
+
+        & input, & select {
+            text-align: center;
+            height: 2.5rem;
+        }
+
+        & textarea {
+            resize: none;
+            height: 10rem;
+        }
+
+        & input:focus, & select:focus, & textarea:focus {  
+            border-color: var.$color-primary;
+            opacity: 0.7;
+            border-radius: 3px;
+        }
+    }
+}

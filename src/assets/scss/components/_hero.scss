@@ -88,6 +88,7 @@
                 box-shadow: var.$shadow-white-3;
                 background: var.$gradient-box-w;
                 border-radius: 6px;
+                transition: 0.4s;
             }  
         }
     }
@@ -97,6 +98,7 @@
     @media (hover: hover) {
         .shortcut {
             &__social li:hover a {
+                transform: translateY(-5px);
                 color: var.$color-primary;
             }
         }

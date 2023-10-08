@@ -2,11 +2,11 @@
 import { scrollPosition } from "./specific/scroll";
 window.addEventListener('scroll', (scrollPosition.headerPosition))
 
-//Gestion des cards pour mes différents emplois
-import { emplois } from "./data/experiences";
+//Gestion des cards d'expériences
+import "./data/experiences";
 
 //gestion des cards de portfolio
-import {portfolios, addCardToDom, filter, cardFilter} from "./data/portfolio";
+import "./data/portfolio";
 
 
 //Gestion en temps réel des menus et boutons en mode mobile et tablet/desktop

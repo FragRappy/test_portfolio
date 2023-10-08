@@ -1,4 +1,4 @@
-export const emplois = [
+const emplois = [
     {
         poste: 'Hotliner niveau 1',
         entreprise: 'B2S',
