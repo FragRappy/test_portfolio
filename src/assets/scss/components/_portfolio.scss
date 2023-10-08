@@ -2,15 +2,13 @@
 @use '../var';
 
 .portfolio {
+    scroll-margin: 7rem;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
     width: 100%;
     max-width: 1100px;
-    margin-top: 2rem;
-    padding: 2rem 0;
-    border-top: 1px solid var.$color-body-white;
+    padding: 1rem 0;
 
     &__menu {
         display: inline-flex;
@@ -19,7 +17,7 @@
         box-shadow: var.$shadow-white-3;
         background: var.$gradient-box-w;
         border-radius: 6px;
-        margin:0 1rem 1rem 1rem;
+        margin:0 1rem;
 
         & ul {
             display: flex;
@@ -29,21 +27,15 @@
               
         }
 
-        & li:not(:last-child){
-            border-bottom: 1px solid var.$color-body-white;
-        }
-
-        & li button{
+        & li button {
             color: var.$color-body-white;
-            padding: 2rem;
             font-size: 1.7rem;
-        }
-        
-        &__current {
-            color: var.$color-body-white;
-            box-shadow: var.$shadow-white-3;
-            background: var.$gradient-box-w;
-            border-radius: 6px;
+            padding: 2rem;
+            
+            & i {
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 
@@ -51,25 +43,28 @@
         overflow-y: scroll;
         overflow-x: hidden;
         display: flex;
-        max-height: 20rem;
+        max-height: 25rem;
         flex-direction: column;
-        align-items: center;
         width: 70%;
-        max-width: 30rem;
+
 
         &__card {
+            width: 15rem;
+            height: 15rem;
             padding: 1.5rem;
             color: var.$color-body-white;
             box-shadow: var.$shadow-white-3;
             background: var.$gradient-box-w;
             border-radius: 20px;
             margin: 1rem;
+            
     
             &__img {
                 border-radius: 10px;
                 overflow: hidden;
-    
+                cursor: pointer;
                 & img {
+                    height: 8rem;
                     width: 100%;
                 }
             }
@@ -79,7 +74,7 @@
 
 @include mixin.hover {
     @media (hover: hover) {
-        .portfolio__container__card__img img:hover {
+        .portfolio__container__card:hover img {
             transition: 0.4s;
             transform: scale(1.1);
         }
@@ -89,13 +84,29 @@
     }
 }
 
-@include mixin.tablet-desktop {
+@include mixin.tablet {
     .portfolio {
         &__container {
             width: 100%;
             max-width: 100%;
             flex-wrap: wrap;
             flex-direction: row;
+            
+            &__card {
+                width: calc((100% / 2) - 2rem);
+            }
+        }
+    }
+}
+
+@include mixin.desktop {
+    .portfolio {
+        &__container {
+            width: 100%;
+            max-width: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+
             &__card {
                 width: calc((100% / 3) - 2rem);
             }

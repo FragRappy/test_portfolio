@@ -2,7 +2,7 @@
 @use '../var';
 
 .hero {
-
+    
     &__img {
         position: relative;
         display: flex;
@@ -34,7 +34,7 @@
         }
 
         &__subtitle {
-            font-size: .5rem;
+            font-size: .7rem;
             letter-spacing: 3px;
         }
 
@@ -50,7 +50,7 @@
         }
 
         &__desc {
-            font-size: 0.6rem;
+            font-size: .8rem;
         }
     }
 }
@@ -58,6 +58,7 @@
 .shortcut {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 
     &__social {
         display: flex;
@@ -102,7 +103,7 @@
     }
 }
 
-@include mixin.tablet-desktop {
+@include mixin.desktop {
     .hero {
         max-width: 1100px;
         display: flex;
@@ -119,7 +120,7 @@
             max-width: 60%;
 
             &__subtitle {
-                font-size: 0.8rem;
+                font-size: .9rem;
             }
 
             &__title, &__typing {
@@ -132,8 +133,7 @@
         }
     }
     .shortcut {
-        margin: 0;
-
+      
         &__social {
             gap: 1rem;
 

@@ -106,13 +106,12 @@
     }
 }
 
-@include mixin.tablet-desktop {
+@include mixin.desktop {
     .menu__nav {
         flex-direction:row;
    
         &__toogle{
             display:none;
         }
-        
     }
 }

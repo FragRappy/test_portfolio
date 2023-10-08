@@ -79,39 +79,40 @@ export const emplois = [
     }
 ];
 
-function addWorkToDom (){
+function addWorkToDom (emploi) {
     const ul = document.querySelector('#test');//a completer
-    for (let i=0; i<emplois.length;i++){
-        const li = document.createElement('li');
-        li.style.display = 'flex'
-        li.style.flexDirection = 'column'
-        li.style.marginBottom = '1rem'
-        // li.classList.add('');a completer
-        const div = document.createElement('div');
-        div.style.border = '2px solid black'
-        div.style.display = 'flex'
-        div.style.flexDirection = 'column'
-        //div.classList.add('');a completer
-        const pPoste = document.createElement('p');
-        //pPoste.classList.add('');a completer
-        pPoste.textContent = emplois[i].poste;
-        const pEntreprise = document.createElement('p');
-        //pEntreprise.classList.add('');a completer
-        pEntreprise.textContent = emplois[i].entreprise;
-        const spanDate = document.createElement('span');
-        //spanDate.classList.add('');a completer et ajouter une ligne de séparation ici en bottom de ce p avec une classe
-        spanDate.textContent = `${emplois[i].months[0]}-${emplois[i].years[0]} à ${emplois[i].months[1]}-${emplois[i].years[1]}`;
-        const pDescription = document.createElement('p');
-        //pDescription.classList.add('');a completer
-        pDescription.textContent = emplois[i].description;
-        li.append(div);
-        div.append(pPoste, pEntreprise, pDescription);
-        pEntreprise.append(spanDate);
-        ul.append(li);
-    }
+    const li = document.createElement('li');
+    li.style.display = 'flex'
+    li.style.flexDirection = 'column'
+    li.style.marginBottom = '1rem'
+    // li.classList.add('');a completer
+    const div = document.createElement('div');
+    div.style.border = '2px solid black'
+    div.style.display = 'flex'
+    div.style.flexDirection = 'column'
+    //div.classList.add('');a completer
+    const pPoste = document.createElement('p');
+    //pPoste.classList.add('');a completer
+    pPoste.textContent = emploi.poste;
+    const pEntreprise = document.createElement('p');
+    //pEntreprise.classList.add('');a completer
+    pEntreprise.textContent = emploi.entreprise;
+    const spanDate = document.createElement('span');
+    //spanDate.classList.add('');a completer et ajouter une ligne de séparation ici en bottom de ce p avec une classe
+    spanDate.textContent = `${emploi.months[0]}-${emploi.years[0]} à ${emploi.months[1]}-${emploi.years[1]}`;
+    const pDescription = document.createElement('p');
+    //pDescription.classList.add('');a completer
+    pDescription.textContent = emploi.description;
+    li.append(div);
+    div.append(pPoste, pEntreprise, pDescription);
+    pEntreprise.append(spanDate);
+    ul.append(li);
 };
 
-addWorkToDom();
-addWorkToDom();
-addWorkToDom();
+for (const emploi of emplois){
+    addWorkToDom(emploi);
+}
+
+
+
    

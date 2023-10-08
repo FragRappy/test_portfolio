@@ -6,7 +6,8 @@ window.addEventListener('scroll', (scrollPosition.headerPosition))
 import { emplois } from "./data/experiences";
 
 //gestion des cards de portfolio
-import portfolios from "./data/portfolio";
+import {portfolios, addCardToDom, filter, cardFilter} from "./data/portfolio";
+
 
 //Gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
 window.addEventListener('DOMContentLoaded', function (event) {
@@ -28,7 +29,11 @@ window.addEventListener('DOMContentLoaded', function (event) {
 
     //gestion du clic sur le bouton retourner en haut
     totop.addEventListener('click', () => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        window.scrollTo({top: 0, behavior: 'smooth'});
+        if (menu.style.display == ''){
+            menu.classList.remove('menu__nav__on');
+            menu.style.display = 'none';
+        }
     });
     //gestion de la largeur au chargement de la page
      window.onload = function () {

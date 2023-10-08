@@ -1,7 +1,13 @@
 @use './var';
 @import './components/typed';
 
-@mixin tablet-desktop {
+@mixin tablet{
+    @media screen and (min-width: 549px) and (max-width: 899){
+       @content;
+    }
+}
+
+@mixin desktop {
     @media screen and (min-width: 900px) {
        @content;
     }

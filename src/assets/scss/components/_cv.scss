@@ -1,0 +1,21 @@
+@use '../mixin';
+@use '../var';
+
+.cv {
+    scroll-margin: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    padding: 2rem 0;
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+
+        & ul {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

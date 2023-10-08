@@ -18,7 +18,7 @@
             <nav class="menu__nav" aria-label="menu principal">
                 <a href="#accueil">Accueil</a>
                 <a href="#portfolio">Portfolio</a>
-                <a href="#">Compétences</a>
+                <a href="#cv">Compétences</a>
                 <a href="#">Contact</a>
                 <h1>Mon CV :
                     <a href="./assets/img/CV Charles-Edouard Breton.pdf" role="button" target="_blank" aria-label="télécharger le cv">
@@ -31,7 +31,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="hero" id="accueil">
+            <section class="hero" id="accueil">
                 <!-- Ma présentation et une courte explication sur ce portfolio -->
                 <div class="hero__img">
                     <img src="./assets/img/photo charles-edouard breton.svg" alt="">
@@ -93,85 +93,59 @@
                         </div>
                     </div> 
                 </div>   
-            </div>
+            </section>
             <!-- Mes différents projets en portfolio -->
-            <div class="portfolio" id="portfolio">
+            <p class="subtitle">Besoin de vous faire un avis ?</p>
+            <h2 class="title">Mon Portfolio</h2>
+            <section class="portfolio" id="portfolio">
                 <div class="portfolio__menu">
                     <ul>
                         <li>
-                            <button class="fa-solid fa-grip-vertical" aria-label="voir tous les projets"></button>
+                            <button type="button" id="all-folio" aria-label="voir tous les projets">
+                                <i class="fa-solid fa-grip-vertical" aria-hidden="true"></i>
+                            </button>
                         </li>
                         <li>
-                            <button class="fa-brands fa-css3-alt" aria-label="voir les projets avec du html et css"></button>
+                            <button type="button" id="css-folio" aria-label="voir les projets avec du html et css">
+                                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                            </button>
                         </li>
                         <li>
-                            <button class="fa-brands fa-js" aria-label="voir les projets avec du javascript"></button>
+                            <button type="button" id="js-folio" aria-label="voir les projets avec du javascript">
+                                <i class="fa-brands fa-js" aria-hidden="true"></i>
+                            </button>
                         </li>
-                        
                     </ul>
                 </div>
-                <div class="portfolio__container">
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/timups.png" alt="">
-                        </div>
-                        <h2>TimUps</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/pokebon.png" alt="">
-                        </div>
-                        <h2>Pokebon</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/bonus.png" alt="">
-                        </div>
-                        <h2>Blog</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/bonus.png" alt="">
-                        </div>
-                        <h2>Blog</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/bonus.png" alt="">
-                        </div>
-                        <h2>Blog</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/bonus.png" alt="">
-                        </div>
-                        <h2>Blog</h2>
-                        <p>Site web en html/css</p>
-                    </div>
-                    <div class="portfolio__container__card">
-                        <div class="portfolio__container__card__img">
-                            <img src="./assets/img/thumb/bonus.png" alt="">
-                        </div>
-                        <h2>Blog</h2>
-                        <p>Site web en html/css</p>
-                    </div>
+                <div class="portfolio__container"></div>
+            </section>
+            <!-- Mon CV numérique -->
+            <p class="subtitle">1 CV = 1 stack de compétences</p>
+            <p class="title">Mes compétences</p>
+            <section class="cv" id="cv">
+                
+                <div class="cv__menu">
+                    <ul>
+                        <li>
+                            <button id="job" class="" aria-label="voir tous les projets">Expérience</button>
+                        </li>
+                        <li>
+                            <button id="skill" class="" aria-label="voir les projets avec du html et css">Compétences</button>
+                        </li>
+                        <li>
+                            <button id="training" class="" aria-label="voir les projets avec du javascript">Formations</button>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                <ul id="test"></ul>
+            </section>
             
-            <!-- Le futur bloc qui integre competence / emplois / formations -->
-            <ul id="test">
-            </ul>
 
             <!-- le futur bloc contact -->
 
            
             <div class="totop">
-                <button type="button" aria-label="remonter en début du portfolio">
+                <button aria-label="remonter en début du portfolio">
                     <i class="fa-solid fa-arrow-up"></i>
                 </button>
             </div>
