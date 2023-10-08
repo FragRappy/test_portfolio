@@ -2,7 +2,7 @@
 @import './components/typed';
 
 @mixin tablet{
-    @media screen and (min-width: 549px) and (max-width: 899){
+    @media screen and (min-width: 549px){
        @content;
     }
 }

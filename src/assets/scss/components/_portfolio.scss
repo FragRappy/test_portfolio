@@ -43,14 +43,13 @@
         overflow-y: scroll;
         overflow-x: hidden;
         display: flex;
-        max-height: 25rem;
+        max-height: 26rem;
         flex-direction: column;
         width: 70%;
 
-
         &__card {
-            width: 15rem;
-            height: 15rem;
+            max-width: 15rem;
+            height: 14rem;
             padding: 1.5rem;
             color: var.$color-body-white;
             box-shadow: var.$shadow-white-3;
@@ -61,12 +60,21 @@
     
             &__img {
                 border-radius: 10px;
+                margin-bottom: 1rem;
                 overflow: hidden;
                 cursor: pointer;
+                
                 & img {
-                    height: 8rem;
+                    height: 7rem;
                     width: 100%;
                 }
+            }
+
+            & a {
+                text-decoration: none;
+                color: var.$color-body-white;
+                font-size: 1rem;
+                font-weight: 600;
             }
         }
     }
@@ -78,7 +86,12 @@
             transition: 0.4s;
             transform: scale(1.1);
         }
+
         .portfolio__menu li button:hover {
+            color: var.$color-primary;
+        }
+
+        .portfolio__container__card a:hover, .portfolio__container__card__img:hover + a{
             color: var.$color-primary;
         }
     }
@@ -88,28 +101,26 @@
     .portfolio {
         &__container {
             width: 100%;
-            max-width: 100%;
             flex-wrap: wrap;
             flex-direction: row;
             
             &__card {
                 width: calc((100% / 2) - 2rem);
+
+                &__img {
+                    
+                    & img {
+                        height: 8rem;
+                        width: 100%;
+                    }
+                }
             }
         }
     }
 }
 
 @include mixin.desktop {
-    .portfolio {
-        &__container {
-            width: 100%;
-            max-width: 100%;
-            flex-wrap: wrap;
-            flex-direction: row;
-
-            &__card {
-                width: calc((100% / 3) - 2rem);
-            }
-        }
+    .portfolio__container__card {
+        width: calc((100% / 3) - 2rem);
     }
 }
