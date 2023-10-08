@@ -141,74 +141,78 @@
             <!-- Mes coordonées avec un formulaire de contact -->
             <p class="subtitle">Vous avez un projet ?</p>
             <p class="title">Contactez Moi</p>
-            <section >
+            <section class="wrapper">
                 <div class="contact">
                     <div class="contact__img">
                         <img src="./assets/img/main.svg" alt="">
                     </div>
-                    <div class="contact__title" >
-                        <h3>Charles-Édouard Breton</p>
-                        <span>En formation développeur Web (accessidev)</p>
-                    </div>
-                    <div class="contact__desc">
+                    <div class="contact__content">
+                        <h3>Charles-Édouard Breton</h3>
+                        <span>En formation développeur Web (accessidev)</span>
                         <p>Si vous avez besoin de rien, n'hésitez pas à me contacter via le formulaire.</p>
                         <p>Dans le formulaire, exprimez vos besoins et je vous répondrais en vous expliquant comment vous en passer.</p>
-                        <span class="contact__desc__phone">Téléphone : 
+                        <span>Téléphone : 
                             <a href="tel:+33608539723">0608539723</a>
                         </span>
-                        <span class="contact__desc__mail">Email : 
+                        <span>Email : 
                             <a href="mailto:breton.charles@live.fr">breton.charles@live.fr</a>
                         </span>
-                        <div class="shortcut__social">
-                            <span class="shortcut__social__title">Mes réseaux</span>
-                            <ul class="shortcut__social__nav">
-                                <li>
-                                    <a href="https://www.facebook.com/charlesedouard.breton/" target="_blank" rel="noopener">
-                                        <span class="sr-only">Vous rendre sur le Facebook de Charles-Édouard Breton</span>
-                                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/charles-edouard-breton-92779027b/" target="_blank" rel="noopener">
-                                        <span class="sr-only">Vous rendre sur le LinkedIn de Charles-Édouard Breton</span>
-                                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/FragRappy" target="_blank" rel="noopener">
-                                        <span class="sr-only">Vous rendre sur le github de Charles-Édouard Breton</span>
-                                        <i class="fa-brands fa-square-github" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="shortcut__social">
+                        <span class="shortcut__social__title">Mes réseaux</span>
+                        <ul class="shortcut__social__nav">
+                            <li>
+                                <a href="https://www.facebook.com/charlesedouard.breton/" target="_blank" rel="noopener">
+                                    <span class="sr-only">Vous rendre sur le Facebook de Charles-Édouard Breton</span>
+                                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/charles-edouard-breton-92779027b/" target="_blank" rel="noopener">
+                                    <span class="sr-only">Vous rendre sur le LinkedIn de Charles-Édouard Breton</span>
+                                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/FragRappy" target="_blank" rel="noopener">
+                                    <span class="sr-only">Vous rendre sur le github de Charles-Édouard Breton</span>
+                                    <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <form class="contact__form">
-                    <label for="name">Nom/Prénom</label>
-                    <input type="text" name="name" id="name" required>
-                    <label for="phone">Téléphone</label>
-                    <input type="tel" name="phone" id="phone" required>
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" id="mail" required>
-                    <label for="subject">Sujet</label>
-                    <select name="subject" id="subject" required>
-                        <option value="">--Selectionner un sujet--</option>
-                        <option value="estimate">Devis</option>
-                        <option value="advice">Conseil</option>
-                        <option value="other">Autre</option>
-                    </select>
-                    <label for="message">Votre message</label>
-                    <textarea name="message" id="message"></textarea>
-                    <button type="submit">Envoyer votre message</button>
+                    <div class="contact__form__name">
+                        <label for="name">Nom/Prénom</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="contact__form__phone">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="contact__form__mail">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </div>
+                    <div class="contact__form__subject">
+                        <label for="subject">Sujet</label>
+                        <select name="subject" id="subject" required>
+                            <option hidden disabled selected value="">--Selectionner un sujet--</option>
+                            <option value="estimate">Devis</option>
+                            <option value="advice">Conseil</option>
+                            <option value="other">Autre</option>
+                        </select>
+                    </div>
+                    <div class="contact__form__message">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="contact__form__button">
+                        <button type="submit">Envoyer votre message &rightarrow;</button>
+                    </div>
                 </form>
             </section>
-            <!-- Bouton pour retourner à l'accueil -->
-            <div class="totop">
-                <button aria-label="remonter à l'accueil">
-                    <i class="fa-solid fa-arrow-up"></i>
-                </button>
-            </div>
         </div>
     </main>
     <footer>
@@ -220,6 +224,12 @@
                 <h3>Charles-Édouard Breton</h3>
                 <span>&copy; 2023. Tout droits réservé.</span>
             </div>
+        </div>
+        <!-- Bouton pour retourner à l'accueil -->
+        <div class="totop">
+            <button aria-label="remonter à l'accueil">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
         </div>
     </footer>
     <script src="./assets/scripts/index.js" type="module"></script>
