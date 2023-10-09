@@ -123,8 +123,8 @@
 
         &__name, &__phone, &__mail, &__subject, &__message, &__button {
             display: flex;
-            width: 100%;
             flex-direction: column;
+            width: 100%;
             gap: .7rem;
         }
 

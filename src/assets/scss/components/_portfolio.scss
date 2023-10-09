@@ -3,7 +3,6 @@
 
 .portfolio {
     scroll-margin: 7rem;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -11,7 +10,7 @@
     padding: 1rem 0;
 
     &__menu {
-        display: inline-flex;
+        display: flex;
         height: 100%;
         font-size: 1.3rem;
         box-shadow: var.$shadow-white-3;
@@ -24,7 +23,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-              
         }
 
         & li button {
@@ -40,12 +38,12 @@
     }
 
     &__container {
+        display: flex;
+        flex-direction: column;
+        max-height: 26rem;
+        width: 70%;
         overflow-y: scroll;
         overflow-x: hidden;
-        display: flex;
-        max-height: 26rem;
-        flex-direction: column;
-        width: 70%;
 
         &__card {
             max-width: 15rem;
@@ -101,8 +99,7 @@
     .portfolio {
         &__container {
             width: 100%;
-            flex-wrap: wrap;
-            flex-direction: row;
+            flex-flow: row wrap;
             
             &__card {
                 width: calc((100% / 2) - 2rem);

@@ -33,7 +33,7 @@ const portfolios = [
         language : 'js',
         title: 'Penalty Game',
         desc: 'Exercice personnel en html/css/js',
-        url: new URL('https://test-portfolio-olive.vercel.app'),
+        url: new URL('https://penalty-game-one.vercel.app'),
         thumbImg: new URL ('../../../assets/img/thumb/penalty.png', import.meta.url)
     },
 ];
