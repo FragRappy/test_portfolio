@@ -17,9 +17,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
     const panel= document.querySelector('.panel');
-    const panelShow = document.querySelector('.panel__show');
     const panelPop = document.querySelector('.panel__pop');
-    let toggler = 0;
 
     //gestion du clic pour le menu burger
     function displayNavMobile () {
