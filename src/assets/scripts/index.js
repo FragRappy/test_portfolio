@@ -1,15 +1,18 @@
 // Gestion du scroll pour afficher le menu en fixed
 import { scrollPosition } from "./specific/scroll";
-window.addEventListener('scroll', (scrollPosition.headerPosition))
+window.addEventListener('scroll', (scrollPosition.headerPosition));
 
-//Gestion des cards d'expériences
-import "./data/experiences";
+//gestion des compétences
+import "./data/skill"
+
+//gestion des cards d'expériences
+import "./data/job";
 
 //gestion des cards de portfolio
 import "./data/portfolio";
 
 
-//Gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
+//gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
 window.addEventListener('DOMContentLoaded', function (event) {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');

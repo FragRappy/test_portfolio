@@ -1,4 +1,4 @@
-const emplois = [
+const jobs = [
     {
         poste: 'Hotliner niveau 1',
         entreprise: 'B2S',
@@ -79,8 +79,8 @@ const emplois = [
     }
 ];
 
-function addWorkToDom (emploi) {
-    const ul = document.querySelector('#test');//a completer
+function addJobToDom (job) {
+    const ul = document.querySelector('.cv_job');//a completer
     const li = document.createElement('li');
     li.style.display = 'flex'
     li.style.flexDirection = 'column'
@@ -93,26 +93,22 @@ function addWorkToDom (emploi) {
     //div.classList.add('');a completer
     const pPoste = document.createElement('p');
     //pPoste.classList.add('');a completer
-    pPoste.textContent = emploi.poste;
+    pPoste.textContent = job.poste;
     const pEntreprise = document.createElement('p');
     //pEntreprise.classList.add('');a completer
-    pEntreprise.textContent = emploi.entreprise;
+    pEntreprise.textContent = job.entreprise;
     const spanDate = document.createElement('span');
     //spanDate.classList.add('');a completer et ajouter une ligne de séparation ici en bottom de ce p avec une classe
-    spanDate.textContent = `${emploi.months[0]}-${emploi.years[0]} à ${emploi.months[1]}-${emploi.years[1]}`;
+    spanDate.textContent = `${job.months[0]}-${job.years[0]} à ${job.months[1]}-${job.years[1]}`;
     const pDescription = document.createElement('p');
     //pDescription.classList.add('');a completer
-    pDescription.textContent = emploi.description;
+    pDescription.textContent = job.description;
     li.append(div);
     div.append(pPoste, pEntreprise, pDescription);
     pEntreprise.append(spanDate);
     ul.append(li);
 };
 
-for (const emploi of emplois){
-    addWorkToDom(emploi);
-}
-
-
-
-   
+for (const job of jobs){
+    addJobToDom(job);
+};
