@@ -11,12 +11,16 @@ import "./data/job";
 //gestion des cards de portfolio
 import "./data/portfolio";
 
-
 //gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
 window.addEventListener('DOMContentLoaded', function (event) {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
+    const panel= document.querySelector('.panel');
+    const panelShow = document.querySelector('.panel__show');
+    const panelPop = document.querySelector('.panel__pop');
+    let toggler = 0;
+
     //gestion du clic pour le menu burger
     function displayNavMobile () {
         if (menu.style.display == 'none'){
@@ -27,8 +31,13 @@ window.addEventListener('DOMContentLoaded', function (event) {
             menu.classList.remove('menu__nav__on');
         }
     }
+
     menuToogle.addEventListener('click', displayNavMobile);
-    //gestion du clic sur le bouton de changement de theme
+
+    //gestion du clic sur le panel en cours de construction
+    panel.addEventListener('click', () => {
+        panelPop.classList.toggle('hidden');
+    })
 
     //gestion du clic sur le bouton retourner en haut
     totop.addEventListener('click', () => {
@@ -38,6 +47,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
             menu.style.display = 'none';
         }
     });
+
     //gestion de la largeur au chargement de la page
      window.onload = function () {
         const width = window.innerWidth;
@@ -49,6 +59,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
             menuToogle.style.display = '';
         }
     };
+
     //gestion de la largeur au changement de taille de la fenêtre
     window.onresize = function () {
         const width = window.innerWidth;

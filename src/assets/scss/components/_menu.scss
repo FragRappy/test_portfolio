@@ -79,6 +79,48 @@
     }
 }
 
+.panel {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: var.$color-body-white;
+    box-shadow: var.$shadow-white-3;
+    background: var.$gradient-box-w;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    opacity: .95;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    transition: 0.2s;
+    cursor:pointer;
+
+    &__show {
+        display: flex;
+        gap: 0.5rem;
+        margin: .5rem;
+        font-size: 1rem;
+        line-height: normal;
+        letter-spacing: 0;
+        writing-mode: vertical-lr;
+        opacity: 1;
+
+        & i {
+            color: var.$color-primary;
+        }
+    }
+
+    &__pop {
+        opacity: 1;
+        padding: 0 1rem;
+        & ul li{
+            padding-top: .5rem;
+        }
+    }
+}
+
 @include mixin.hover {
     @media(hover :hover) {
         .menu__nav:hover {
@@ -102,6 +144,10 @@
         }
         .menu__toogle:hover {
             box-shadow: var.$inner-shadow-white-3;
+        }
+
+        .panel:hover {
+            transform: translate(3px, -50%);
         }
     }
 }
