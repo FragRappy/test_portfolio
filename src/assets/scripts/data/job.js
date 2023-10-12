@@ -76,11 +76,11 @@ const jobs = [
             'juillet'
         ],
         description: 'Achat / Vente / Réparation de matériel informatique et smartphones - Gestion des stocks - Merchandising - Gestion des plannings - Supervision de deux techniciens',
-    }
+    },
 ];
 
-function addJobToDom (job) {
-    const ul = document.querySelector('.cv_job');//a completer
+const addJobToDom = (job) => {
+    const ul = document.querySelector('#job');
     const li = document.createElement('li');
     li.style.display = 'flex'
     li.style.flexDirection = 'column'

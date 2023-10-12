@@ -1,18 +1,21 @@
 // Gestion du scroll pour afficher le menu en fixed
 import { scrollPosition } from "./specific/scroll";
-window.addEventListener('scroll', (scrollPosition.headerPosition));
+window.addEventListener('scroll', scrollPosition.headerPosition);
 
 //gestion des compétences
 import "./data/skill"
 
-//gestion des cards d'expériences
+//gestion des expériences
 import "./data/job";
+
+//gestion des formations
+import "./data/training";
 
 //gestion des cards de portfolio
 import "./data/portfolio";
 
 //gestion en temps réel des menus et boutons en mode mobile et tablet/desktop
-window.addEventListener('DOMContentLoaded', function (event) {
+window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu__nav');
     const menuToogle = document.querySelector('.menu__toogle');
     const totop = document.querySelector('.totop');
@@ -20,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     const panelPop = document.querySelector('.panel__pop');
 
     //gestion du clic pour le menu burger
-    function displayNavMobile () {
+    const displayNavMobile = () => {
         if (menu.style.display == 'none'){
             menu.style.display = '';
             menu.classList.add('menu__nav__on');
@@ -47,7 +50,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     });
 
     //gestion de la largeur au chargement de la page
-     window.onload = function () {
+     window.onload = () => {
         const width = window.innerWidth;
         if (width > 899) {
             menu.style.display = '';
@@ -59,7 +62,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     };
 
     //gestion de la largeur au changement de taille de la fenêtre
-    window.onresize = function () {
+    window.onresize = () => {
         const width = window.innerWidth;
         if (width > 899) {
             menu.style.display = '';

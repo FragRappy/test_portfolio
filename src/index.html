@@ -26,7 +26,7 @@
                     </a>
                 </h1>
             </nav>
-            <div class="menu__toogle" title="Afficher/Masquer le Menu">&#9776;</div>
+            <div class="menu__toogle" aria-label="Afficher/Masquer le Menu">&#9776;</div>
         </div>
     </header>
     <main>
@@ -96,7 +96,7 @@
             </section>
             <!-- Mes différents projets en portfolio -->
             <p class="subtitle">Besoin de vous faire un avis ?</p>
-            <h2 class="title">Mon Portfolio</h2>
+            <h2 class="title" aria-label="présentation des différents projets de mon portfolio">Mon Portfolio</h2>
             <section class="portfolio" id="portfolio">
                 <div class="portfolio__menu">
                     <ul>
@@ -136,7 +136,17 @@
                         </li>
                     </ul>
                 </div>
-                <ul class="cv_job"></ul>
+                <div class="cv__container">
+                    <div class="cv__container__job hidden">
+                        <ul id="job"></ul>
+                    </div>
+                    <div class="cv__container__skill">
+                        <ul id="skill"></ul>
+                    </div>
+                    <div class="cv__container__training">
+                        <ul id="training"></ul>
+                    </div>
+                </div>
             </section>
             <!-- Mes coordonées avec un formulaire de contact -->
             <p class="subtitle">Vous avez un projet ?</p>
@@ -214,6 +224,7 @@
                 </form>
             </section>
         </div>
+        <!-- Affichage d'une sidebar en "en construction" précisant les fonctionnalités qui ne sont pas utilisable -->
         <div class="panel">
             <div class="panel__show">
                 <span>En construction</span>
