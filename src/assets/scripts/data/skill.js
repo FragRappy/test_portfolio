@@ -125,8 +125,10 @@ const trainingBtn = document.querySelector('#training');
 const jobContent = document.querySelector('.cv__container__content:first-child');
 const skillContent = document.querySelector('.cv__container__content:nth-child(even)');
 const trainingContent = document.querySelector('.cv__container__content:last-child');
+const titleChange = document.querySelector('#modif-title');
 
 jobBtn.addEventListener('click', () => {
+    titleChange.textContent = 'Mes Expériences';
     jobBtn.classList.add('current');
     skillBtn.classList.remove('current');
     trainingBtn.classList.remove('current');
@@ -136,6 +138,7 @@ jobBtn.addEventListener('click', () => {
 });
 
 skillBtn.addEventListener('click', () => {
+    titleChange.textContent = 'Mes Compétences';
     jobBtn.classList.remove('current');
     skillBtn.classList.add('current');
     trainingBtn.classList.remove('current');
@@ -145,6 +148,7 @@ skillBtn.addEventListener('click', () => {
 });
 
 trainingBtn.addEventListener('click', () => {
+    titleChange.textContent = 'Mes Formations';
     jobBtn.classList.remove('current');
     skillBtn.classList.remove('current');
     trainingBtn.classList.add('current');
