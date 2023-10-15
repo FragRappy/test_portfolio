@@ -118,7 +118,6 @@ const addContentToSkill = (content) => {
 };
 
 for (const skill of skills){
-    console.log(skill);
     addSkillToDom(skill);
 
     for (const content of skill){
