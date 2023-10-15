@@ -94,9 +94,6 @@ const filter = {
     },
 }
 
-//initialisation de la couleur sur bouton all
-filter.allFolio.classList.add('current');
-
 //ecouteur pour les differents boutons de filtre des cards
 filter.allFolio.addEventListener('click', () => {
     filter.allFolio.classList.add('current');

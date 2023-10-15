@@ -1,7 +1,7 @@
 const jobs = [
     {
         poste: 'Hotliner niveau 1',
-        entreprise: 'B2S',
+        entreprise: 'Société B2S',
         years: [
             2009,
             2009
@@ -14,7 +14,7 @@ const jobs = [
     },
     {
         poste: 'Responsable magasin',
-        entreprise: 'Occaziophone',
+        entreprise: 'Société Occaziophone',
         years: [
             2010,
             2010
@@ -27,7 +27,7 @@ const jobs = [
     },
     {
         poste: 'Vendeur',
-        entreprise: 'Game',
+        entreprise: 'Société Game',
         years: [
             2010,
             2010
@@ -40,7 +40,7 @@ const jobs = [
     },
     {
         poste: 'Hotliner niveau 2 et formateur',
-        entreprise: 'JDL Entreprise',
+        entreprise: 'Société JDL Entreprise',
         years: [
             2011,
             2012
@@ -53,7 +53,7 @@ const jobs = [
     },
     {
         poste: 'Responsable rayon informatique',
-        entreprise: 'Happy Cash',
+        entreprise: 'Société Happy Cash',
         years: [
             2013,
             2014
@@ -80,32 +80,22 @@ const jobs = [
 ];
 
 const addJobToDom = (job) => {
-    const ul = document.querySelector('#job');
+    const ul = document.querySelector('#job-content');
     const li = document.createElement('li');
-    li.style.display = 'flex'
-    li.style.flexDirection = 'column'
-    li.style.marginBottom = '1rem'
-    // li.classList.add('');a completer
-    const div = document.createElement('div');
-    div.style.border = '2px solid black'
-    div.style.display = 'flex'
-    div.style.flexDirection = 'column'
-    //div.classList.add('');a completer
+    li.classList.add('cv__container__content__card');
     const pPoste = document.createElement('p');
-    //pPoste.classList.add('');a completer
+    pPoste.classList.add('cv__container__content__card__poste');
     pPoste.textContent = job.poste;
     const pEntreprise = document.createElement('p');
-    //pEntreprise.classList.add('');a completer
+    pEntreprise.classList.add('cv__container__content__card__entreprise');
     pEntreprise.textContent = job.entreprise;
     const spanDate = document.createElement('span');
-    //spanDate.classList.add('');a completer et ajouter une ligne de séparation ici en bottom de ce p avec une classe
-    spanDate.textContent = `${job.months[0]}-${job.years[0]} à ${job.months[1]}-${job.years[1]}`;
+    spanDate.classList.add('cv__container__content__card__date');
+    spanDate.textContent = `de ${job.months[0]}-${job.years[0]} à ${job.months[1]}-${job.years[1]}`;
     const pDescription = document.createElement('p');
     //pDescription.classList.add('');a completer
     pDescription.textContent = job.description;
-    li.append(div);
-    div.append(pPoste, pEntreprise, pDescription);
-    pEntreprise.append(spanDate);
+    li.append(pPoste, pEntreprise, spanDate, pDescription);
     ul.append(li);
 };
 

@@ -101,7 +101,7 @@
                 <div class="portfolio__menu">
                     <ul>
                         <li>
-                            <button type="button" id="all-folio" aria-label="voir tous les projets">
+                            <button type="button" id="all-folio" aria-label="voir tous les projets" class="current">
                                 <i class="fa-solid fa-grip-vertical" aria-hidden="true"></i>
                             </button>
                         </li>
@@ -126,10 +126,10 @@
                 <div class="cv__menu">
                     <ul>
                         <li>
-                            <button id="job" class="" aria-label="voir tous les projets">Expérience</button>
+                            <button id="job" class="" aria-label="voir tous les projets">Expériences</button>
                         </li>
                         <li>
-                            <button id="skill" class="" aria-label="voir les projets avec du html et css">Compétences</button>
+                            <button id="skill" class="current" aria-label="voir les projets avec du html et css">Compétences</button>
                         </li>
                         <li>
                             <button id="training" class="" aria-label="voir les projets avec du javascript">Formations</button>
@@ -137,14 +137,14 @@
                     </ul>
                 </div>
                 <div class="cv__container">
-                    <div class="cv__container__job hidden">
-                        <ul id="job"></ul>
+                    <div class="cv__container__content hidden">
+                        <ul id="job-content" ></ul>
                     </div>
-                    <div class="cv__container__skill">
-                        <ul id="skill"></ul>
+                    <div class="cv__container__content">
+                        <ul id="skill-content" class></ul>
                     </div>
-                    <div class="cv__container__training">
-                        <ul id="training"></ul>
+                    <div class="cv__container__content">
+                        <ul id="training-content" class="hidden"></ul>
                     </div>
                 </div>
             </section>

@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const totop = document.querySelector('.totop');
     const panel= document.querySelector('.panel');
     const panelPop = document.querySelector('.panel__pop');
-
+   
     //gestion du clic pour le menu burger
     const displayNavMobile = () => {
         if (menu.style.display == 'none'){
