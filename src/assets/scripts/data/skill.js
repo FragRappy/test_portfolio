@@ -1,6 +1,6 @@
 const skills = [
 
-    language = [
+   language = [
         'Langage de programmation',
         {
             name: 'HTML',
@@ -92,7 +92,7 @@ const addSkillToDom = (skill) => {
     const h3 = document.createElement('h3');
     h3.classList.add('cv__container__content__card__poste')
     h3.textContent = skill[0];
-    skill.shift();
+    skill.shift(0);
     ul.append(li);
     li.append(h3);
 }
@@ -112,6 +112,7 @@ const addContentToSkill = (content) => {
 };
 
 for (const skill of skills){
+    console.log(skill);
     addSkillToDom(skill);
 
     for (const content of skill){
@@ -128,7 +129,7 @@ const trainingContent = document.querySelector('.cv__container__content:last-chi
 const titleChange = document.querySelector('#modif-title');
 
 jobBtn.addEventListener('click', () => {
-    titleChange.textContent = 'Mes Expériences';
+    titleChange.textContent = 'Mes expériences';
     jobBtn.classList.add('current');
     skillBtn.classList.remove('current');
     trainingBtn.classList.remove('current');
@@ -138,7 +139,7 @@ jobBtn.addEventListener('click', () => {
 });
 
 skillBtn.addEventListener('click', () => {
-    titleChange.textContent = 'Mes Compétences';
+    titleChange.textContent = 'Mes compétences';
     jobBtn.classList.remove('current');
     skillBtn.classList.add('current');
     trainingBtn.classList.remove('current');
@@ -148,7 +149,7 @@ skillBtn.addEventListener('click', () => {
 });
 
 trainingBtn.addEventListener('click', () => {
-    titleChange.textContent = 'Mes Formations';
+    titleChange.textContent = 'Mes formations';
     jobBtn.classList.remove('current');
     skillBtn.classList.remove('current');
     trainingBtn.classList.add('current');
