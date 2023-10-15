@@ -1,3 +1,9 @@
+let language = '';
+let frameworkFront = '';
+let frameworkBack = '';
+let runtime = '';
+let cms = '';
+
 const skills = [
 
    language = [
