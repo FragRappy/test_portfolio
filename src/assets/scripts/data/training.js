@@ -1,6 +1,6 @@
 const trainings = [
     {
-        name: 'TP Développeur web et web mobile (option accéssibilité)',
+        name: 'TP Développeur web et web mobile (option accessibilité)',
         school: 'O\'Clock (75008) - Adea (01000)',
         years: 'de 2023 à 2024',
         statut: 'En cours',
