@@ -14,5 +14,8 @@
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
     "scss-reset": "^1.4.2"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
   }
 }
