@@ -1,55 +1,44 @@
 const jobs = [
     {
-        poste: 'Hotliner niveau 1',
-        entreprise: 'Société B2S',
+        poste: 'Stage | Développement web et web mobile',
+        entreprise: 'Votre société ?',
         years: [
-            2009,
-            2009
+            2024,
+            2024
         ],
         months: [
             'mars',
-            'juillet'
-        ],
-        description: 'Dépannage de box internet et des conflits matériels et logiciels BtoC',
-    },
-    {
-        poste: 'Responsable magasin',
-        entreprise: 'Société Occaziophone',
-        years: [
-            2010,
-            2010
-        ],
-        months: [
-            'avril',
-            'juillet'
-        ],
-        description: 'Réparation de smartphones - Gestion des stocks - Merchandising - Gestion de la caisse',
-    },
-    {
-        poste: 'Vendeur',
-        entreprise: 'Société Game',
-        years: [
-            2010,
-            2010
-        ],
-        months: [
-            'octobre',
             'avril'
         ],
-        description: 'Gestion de la caisson - Gestion du réassort - Merchandising - Conseil client',
+        description: 'Mes tâches suivront en partie le référentiel du titre pro',
     },
     {
-        poste: 'Hotliner niveau 2 et formateur',
-        entreprise: 'Société JDL Entreprise',
+        poste: 'Renovation de biens immobiliers',
+        entreprise: 'A titre personnel',
         years: [
-            2011,
-            2012
+            2017,
+            2023
         ],
         months: [
-            'décembre',
+            'août',
+            'décembre'
+        ],
+        description: `Renovation complète de 3 biens immobiliers comprenant tout le second oeuvre ainsi qu'une grosse partie du gros oeuvre :
+        Second oeuvre : électricité/plomberie et sanitaire/cuisine/menuiserie/carrelage/isolation/placo/peinture/
+        Gros oeuvre : dalle sur hérisson/chape flottante sur isolant type xps/embrasure`
+    },
+    {
+        poste: 'Adjoint responsable magasin',
+        entreprise: 'Phone House sarl',
+        years: [
+            2015,
+            2017
+        ],
+        months: [
+            'août',
             'juillet'
         ],
-        description: 'Support utilisateur en informatique et data mobile (iOS / Blackberry / Android / Clés 3G) - Formation des clients B2B sur l\'utilisation basique des smartphones (Mail / Internet / Messageries)',
+        description: 'Achat / Vente / Réparation de matériel informatique et smartphones - Gestion des stocks - Merchandising - Gestion des plannings - Supervision de deux techniciens',
     },
     {
         poste: 'Responsable rayon informatique',
@@ -65,17 +54,56 @@ const jobs = [
         description: 'Gestion du rayon informatique (Conseil client / Vente / Achat / SAV / Suivi des stocks)',
     },
     {
-        poste: 'Adjoint responsable magasin',
-        entreprise: 'Phone House sarl',
+        poste: 'Hotliner niveau 2 et formateur',
+        entreprise: 'Société JDL Entreprise',
         years: [
-            2015,
-            2017
+            2011,
+            2012
         ],
         months: [
-            'août',
+            'décembre',
             'juillet'
         ],
-        description: 'Achat / Vente / Réparation de matériel informatique et smartphones - Gestion des stocks - Merchandising - Gestion des plannings - Supervision de deux techniciens',
+        description: 'Support utilisateur en informatique et data mobile (iOS / Blackberry / Android / Clés 3G) - Formation des clients B2B sur l\'utilisation basique des smartphones (Mail / Internet / Messageries)',
+    },
+    {
+        poste: 'Vendeur',
+        entreprise: 'Société Game',
+        years: [
+            2010,
+            2011
+        ],
+        months: [
+            'octobre',
+            'avril'
+        ],
+        description: 'Gestion de la caisson - Gestion du réassort - Merchandising - Conseil client',
+    },
+    {
+        poste: 'Responsable magasin',
+        entreprise: 'Société Occaziophone',
+        years: [
+            2010,
+            2010
+        ],
+        months: [
+            'avril',
+            'juillet'
+        ],
+        description: 'Réparation de smartphones - Gestion des stocks - Merchandising - Gestion de la caisse',
+    },
+    {
+        poste: 'Hotliner niveau 1',
+        entreprise: 'Société B2S',
+        years: [
+            2009,
+            2009
+        ],
+        months: [
+            'mars',
+            'juillet'
+        ],
+        description: 'Dépannage de box internet et des conflits matériels et logiciels BtoC',
     },
 ];
 

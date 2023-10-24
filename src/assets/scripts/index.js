@@ -43,10 +43,6 @@ window.addEventListener('DOMContentLoaded', () => {
     //gestion du clic sur le bouton retourner en haut
     totop.addEventListener('click', () => {
         window.scrollTo({top: 0, behavior: 'smooth'});
-        if (menu.style.display == ''){
-            menu.classList.remove('menu__nav__on');
-            menu.style.display = 'none';
-        }
     });
 
     //gestion de la largeur au chargement de la page

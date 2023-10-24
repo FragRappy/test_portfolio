@@ -9,16 +9,16 @@ const skills = [
    language = [
         'Langage de programmation',
         {
-            name: 'HTML',
+            name: 'HTML et Accessibilité',
             level: '80%',
         },
         {
-            name: 'CSS',
-            level: '60%',
+            name: 'CSS et SASS',
+            level: '70%',
         },
         {
             name: 'Javascript',
-            level: '40%',
+            level: '60%',
         },
         {
             name: 'SQL',
@@ -30,7 +30,7 @@ const skills = [
         'Framework Front-End',
         {
             name: 'React',
-            level: '100%',
+            level: '0%',
         },
         {
             name: 'Angular',
@@ -45,12 +45,8 @@ const skills = [
     frameworkBack = [
         'Framework Back-End',
         {
-            name: 'Next.js',
-            level: '0%',
-        },
-        {
             name: 'Express.js',
-            level: '0%',
+            level: '30%',
         },
     ],
 
@@ -58,7 +54,7 @@ const skills = [
         'Environnement d\'exécution',
         {
             name: 'Node.js',
-            level: '0%',
+            level: '30%',
         },
         {
             name: 'Bun',
@@ -74,15 +70,15 @@ const skills = [
         'CMS',
         {
             name: 'WordPress',
-            level: '20%',
+            level: '10%',
         },
         {
             name: 'Prestashop',
-            level: '30%',
+            level: '10%',
         },
         {
             name: 'Shopify',
-            level: '20%',
+            level: '10%',
         },
         {
             name: 'Joomla!',
