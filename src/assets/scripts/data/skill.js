@@ -46,7 +46,7 @@ const skills = [
         'Framework Back-End',
         {
             name: 'Express.js',
-            level: '30%',
+            level: '60%',
         },
     ],
 
@@ -54,11 +54,11 @@ const skills = [
         'Environnement d\'exécution',
         {
             name: 'Node.js',
-            level: '30%',
+            level: '60%',
         },
         {
             name: 'Bun',
-            level: '5%',
+            level: '10%',
         },
         {
             name: 'Deno',
