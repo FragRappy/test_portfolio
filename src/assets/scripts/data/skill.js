@@ -22,7 +22,7 @@ const skills = [
         },
         {
             name: 'SQL',
-            level: '0%',
+            level: '50%',
         },
     ],
 
