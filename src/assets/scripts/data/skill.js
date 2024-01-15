@@ -7,7 +7,7 @@ let cms = '';
 const skills = [
 
    language = [
-        'Langage de programmation',
+        'Langages',
         {
             name: 'HTML et Accessibilité',
             level: '90%',
