@@ -13,6 +13,6 @@ Projet de création de mon portfolio
 - [ ] REACT.JS
 - [ ] BDD
 
-Ce projet est actuellement limité à l'étape du css.
+Ce projet est actuellement limité à l'étape du js.
 
 Roadmap ==>  **wireframe**/**mise en place d'un bundler (parcel)**/**structure html**/**style css**/ 
