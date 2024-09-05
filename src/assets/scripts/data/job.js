@@ -1,11 +1,11 @@
 const jobs = [
   {
-    poste: "Stage | Tremplin 01",
-    entreprise: "Votre société ?",
+    poste: "Stage",
+    entreprise: "Tremplin 01",
     years: [2024, 2024],
     months: ["mars", "avril"],
     description:
-      "Réalisation du site internet (front-end et back-end) textile360.fr / Framework utilisé NextJs / composant UI React Mantine / ORM Prisma et mise en production du site sur vercel",
+      "Réalisation du site internet (front-end et back-end) textile360.fr / Framework utilisé NextJs / composant UI React Mantine / ORM Prisma / Mise en production du site sur vercel",
   },
   {
     poste: "Renovation de biens immobiliers",
